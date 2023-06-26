@@ -186,7 +186,7 @@ main_function() {
     sleep 15
 
     cd /home/vagrant/
-    cp /tmp/$name-json-$i.json  /home/vagrant/sigl_json/
+    cp /tmp/$name-$i.json  /home/vagrant/sigl_json/
   done
 }
 
