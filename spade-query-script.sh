@@ -126,6 +126,18 @@ main_function() {
   local name=$2
   local exec_path=$3
 
+  dir_path="/home/vagrant/sigl_json/"
+
+  # Check if the directory exists
+  if [ ! -d "$dir_path" ]; then
+    # Directory does not exist, create it
+    mkdir -p "$dir_path"
+    echo "Directory created: $dir_path"
+  else
+    echo "Directory already exists: $dir_path"
+  fi
+
+
   for ((i=1; i<=$itr; i++))
   do
     res=$(check_file_path "/home/vagrant/sigl_logs/$name-audit-$i.log")
