@@ -161,7 +161,7 @@ main_function() {
     sleep 30
 
     query_writer "list"
-    query_writer "export > /tmp/$name-json-$i.json"
+    query_writer "export > /tmp/$name-$i.json"
     query_writer "dump all \$lineage_count"
 
     sleep 10
