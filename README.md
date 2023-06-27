@@ -1,7 +1,7 @@
 # SIGL-scripts
 
 ## Usage
-To use this Vagrant file, follow the instructions below:
+To use this Vagrant file, follow the instructions below: '\n'
 
 Make sure you have Vagrant installed on your system.
 Clone this repository to your local machine.
